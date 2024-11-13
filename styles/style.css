@@ -1,0 +1,63 @@
+/* p,
+li,
+h1:hover {
+  color: green;
+  width: 500px;
+  border: 1px solid black;
+} */
+
+@font-face {
+  font-family: "fff";
+  src: url("/fonts/Sahel/Farsi-Digits/Sahel-FD.woff2") format("woff2");
+  /* url('fonts/YourCustomFont.woff') format('woff'),
+       url('fonts/YourCustomFont.ttf') format('truetype'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "fff", serif;
+  font-size: 14px;
+}
+h1,
+#butt {
+  font-size: 60px;
+  text-align: center;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #007f5f;
+}
+
+body {
+  width: 650px;
+  /* margin: 0 auto; */
+
+  /* top and bottom | left and right */
+  /* margin: 10% auto; */
+
+  /* top | left and right | bottom */
+  margin: 1em auto 5em;
+  background-color: #fffff0;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #d4af37;
+}
+
+h1 {
+  margin: 0;
+  padding: 40px 0;
+  color: #2e2e2e;
+  text-shadow: 3px 3px 3px #c4c4c4;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
